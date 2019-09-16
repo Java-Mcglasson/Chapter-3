@@ -16,7 +16,7 @@ public class TempConversion {
                 System.out.println("temperature in Celsius = " + temperature);
 
                 if (temperature <= 32) {
-                    System.out.println("Is the freezing out side");
+                    System.out.println("It is freezing out side");
                 }
                 if (temperature >= 100) {
                     System.out.println("It is very hot out side");

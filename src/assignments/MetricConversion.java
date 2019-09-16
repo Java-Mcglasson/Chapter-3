@@ -28,15 +28,15 @@ public class MetricConversion {
 
         numGallons = (int) (numLiters * 0.264);
         
-        System.out.println("You have " + numGallons + ".");
+        System.out.println("You have " + numGallons + " gallons.");
 
     }
     
     public static void convertCentsToInches(int numCent, int numInches){
 
-        numInches = (int) (numCent * 0.264);
+        numInches = (int) (numCent * 0.394);
 
-        System.out.println("You have " + numInches + ".");
+        System.out.println("You have " + numInches + " inches.");
         
     }
 
